@@ -1,6 +1,8 @@
 #ifndef R2D_STRVIEW_H
 #define R2D_STRVIEW_H
 
+#include <cstddef>
+
 typedef struct {
 	const char *data;
 	size_t size;
