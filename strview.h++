@@ -8,6 +8,6 @@ typedef struct {
 	size_t size;
 } str_view;
 
-char *get_char_pointer(str_view v);
+char *str_view_get_data(str_view v);
 
 #endif
